@@ -1,4 +1,4 @@
-### <p style="color:#04BF94">PlantIn</p>
+### - ![#04BF94](PlantIn) `#04BF94`
 ## DEMO Link: https://mars1317.github.io/PlantIn/
 ## Project sources are in ./src folder. ###
 
