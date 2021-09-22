@@ -1,5 +1,5 @@
 # PlantIn
-# DEMO Link: 
+# DEMO Link: https://mars1317.github.io/PlantIn/
 Stack: React, redux, hooks, SCSS.
 Database: json file, which contains 30 posts and stored at: https://my-json-server.typicode.com/mars1317/postsJson/posts. The fetch method was used to get the data.
 
