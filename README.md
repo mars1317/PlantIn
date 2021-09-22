@@ -1,4 +1,4 @@
-### PlantIn
+### <p style="color:#04BF94">PlantIn</p>
 ## DEMO Link: https://mars1317.github.io/PlantIn/
 ## Project sources are in ./src folder. ###
 
