@@ -1,5 +1,5 @@
-# PlantIn
-# DEMO Link: https://mars1317.github.io/PlantIn/
+## PlantIn
+### DEMO Link: https://mars1317.github.io/PlantIn/
 Project sources are in ./src folder.
 
 __Stack: React, redux, hooks, SCSS.__ <br />
