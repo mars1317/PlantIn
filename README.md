@@ -1,4 +1,4 @@
-### - PlantIn
+### PlantIn :leaves:	
 ## DEMO Link: https://mars1317.github.io/PlantIn/
 ## Project sources are in ./src folder. ###
 
