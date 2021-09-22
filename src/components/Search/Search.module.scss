@@ -1,0 +1,67 @@
+@import '../../variables.scss'; 
+
+.Search {
+  margin-bottom: 30px;
+  padding: 50px 0 10px;
+  background-image: url('../../assets/images/searchImage.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+
+  .Title {
+    font-weight: 800;
+    color: $saturgreen;
+    margin: 0;
+    font-size: 32px;
+  }
+
+  .SearchInput {
+    width: 100%;
+    max-width: 520px;
+    height: 56px;
+    padding-left: 20px;
+    border-radius: 12px;
+    border: 2px solid $white;
+    box-shadow: 0px 0.470434px 2.21381px rgba(0, 0, 0, 0.0196802);
+    font-size: 16px;
+    background: $white url('../../assets/icons/search.svg') no-repeat scroll 7px 7px;
+    background-position: right 30px top 20px; 
+    outline: none;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 24px;
+      color: $bluegray;
+    }
+
+    &:focus, &:active {
+      border: 2px solid $saturgreen;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .Search {
+    max-width: 460px;
+    margin: 0 auto 20px;
+    background-image: none;
+
+    .Title {
+      font-size: 24px;
+    }
+
+    .SearchInput {
+      max-width: 300px;
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      background-position: right 20px top 12px
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Search {
+    max-width: 330px;
+  }
+}

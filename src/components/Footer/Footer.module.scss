@@ -1,0 +1,66 @@
+@import '../../variables.scss';
+
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 40px;
+
+  .Rules {
+    width: 440px;
+
+    ul li {
+      margin-right: 5px;
+      &:after {
+        color: $bluegray;
+
+        content: '|';
+        margin-left: 5px;
+      }
+
+      &:nth-child(3) {
+        &:after {
+          content: '';
+        }
+  
+      }
+    }
+
+    ul li a {
+      color: $bluegray;
+    }
+  }
+
+  .Copyright {
+    color: $bluegray;
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+
+    .Rules {
+      width: auto;
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      ul li {
+        &:after {  
+          content: '';
+        }
+      }
+    }
+
+    .Copyright {
+      width: auto;
+      text-align: center;
+    }
+  }
+}

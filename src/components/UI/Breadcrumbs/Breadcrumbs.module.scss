@@ -1,0 +1,24 @@
+@import '../../../variables.scss';
+
+.Breadcrumbs {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 5px 0;
+
+  .item {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $bluegray;
+
+    &:after {
+      content: url('../../../assets/icons/chevron_left.png');
+      margin: 0 5px;
+    }
+
+    &:hover {
+      color: $saturgreen;
+    }
+  }
+}

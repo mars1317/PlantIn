@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+.Posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .NotFound {
+    font-size: 24px;
+    max-width: 700px;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    color: $bluegray;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $simplegray;
+  }
+}
+
+.SectionTitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: $bluegray;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .SectionTitle {
+    max-width: 330px;
+    margin: 15px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Posts {
+    .NotFound {
+      font-size: 16px;
+    }
+  }
+}

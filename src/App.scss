@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background-color: $lightgray;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  max-width: 1074px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
