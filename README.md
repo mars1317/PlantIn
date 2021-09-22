@@ -1,4 +1,4 @@
-### PlantIn :leaves:	
+### PlantIn :four_leaf_clover:	
 ## DEMO Link: https://mars1317.github.io/PlantIn/
 ## Project sources are in ./src folder. ###
 
