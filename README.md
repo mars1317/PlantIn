@@ -1,9 +1,4 @@
-### PlantIn :four_leaf_clover:	
 ## DEMO Link: https://mars1317.github.io/PlantIn/
-## Project sources are in ./src folder. ###
-
-__Stack: React, redux, hooks, SCSS.__ <br />
-__Database: json file, which contains 30 posts and stored at: https://my-json-server.typicode.com/mars1317/postsJson/posts. The fetch method was used to get the data.__
 
 JS Features:
   1. Weather. The current weather displayed in the line “Current temperature is”. To do this was used API: https://openweathermap.org/api. Weather value is updated on page reload.
